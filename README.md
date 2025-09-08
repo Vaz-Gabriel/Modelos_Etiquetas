@@ -4,7 +4,7 @@ Este projeto foi desenvolvido para **auxiliar no ambiente de trabalho**, oferece
 
 - 📌 Selecionar diferentes **modelos de impressoras**;  
 - 🖨️ Visualizar os **modelos de etiquetas disponíveis**;  
-- ⬇️ Fazer o **download imediato** do modelo desejado (extensão `.rtl`).  
+- ⬇️ Fazer o **download imediato** do modelo desejado (extensão `.rtm`).  
 
 O objetivo é **agilizar o processo de impressão de etiquetas**, centralizando em um único local todos os modelos necessários para o uso diário.  
 
