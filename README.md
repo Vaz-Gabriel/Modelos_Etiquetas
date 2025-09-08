@@ -21,3 +21,11 @@ O objetivo é **agilizar o processo de impressão de etiquetas**, centralizando 
 - Menu interativo para seleção de impressoras  
 - Exibição de imagens ilustrativas das etiquetas  
 - Link de download direto dos arquivos prontos  
+
+---
+
+## 👨‍💻 Desenvolvedor
+
+| Nome     | GitHub                           |
+|----------|----------------------------------|
+| Gabriel Franco Vaz | [@Vaz-Gabriel](https://github.com/Vaz-Gabriel) |
