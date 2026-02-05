@@ -1,0 +1,155 @@
+:root {
+    --bg-dark: #222;
+    --bg-light: #f2f2f2;
+    --card-dark: #222;
+    --card-light: #fff;
+    --text-dark: #ddd;
+    --text-light: #222;
+    --primary: #411e5a;
+}
+
+/* TRANSIÇÃO GLOBAL */
+* {
+    transition: background-color 0.35s ease, color 0.35s ease, box-shadow 0.35s ease;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg-dark);
+    color: var(--text-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER */
+header {
+    background: var(--primary);
+    width: 97%;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ===== SWITCH ===== */
+.theme-switch {
+    position: relative;
+    width: 52px;
+    height: 26px;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    inset: 0;
+    background: #333;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.slider::before {
+    content: "🌙";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 2px;
+    top: 2px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    transition: transform 0.35s ease;
+}
+
+input:checked + .slider {
+    background: #ffb703;
+}
+
+input:checked + .slider::before {
+    transform: translateX(26px);
+    content: "☀️";
+}
+
+/* MAIN */
+main {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 500px;
+    background: var(--card-dark);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.preview {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.preview img {
+    max-width: 200px;
+    display: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#download-link {
+    display: none;
+    background: #ff6900;
+    color: #fff;
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#download-link:hover {
+    background: #d34600;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+/* ===== LIGHT MODE ===== */
+body.light {
+    background: var(--bg-light);
+    color: var(--text-light);
+}
+
+body.light header {
+    background: #411e5a;
+    color: #FFF;
+}
+
+body.light main {
+    background: var(--card-light);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
