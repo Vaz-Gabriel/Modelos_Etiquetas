@@ -4,7 +4,8 @@ Este projeto foi desenvolvido para **auxiliar no ambiente de trabalho**, oferece
 
 - 📌 Selecionar diferentes **modelos de impressoras**;  
 - 🖨️ Visualizar os **modelos de etiquetas disponíveis**;  
-- ⬇️ Fazer o **download imediato** do modelo desejado (extensão `.rtm`).  
+- ⬇️ Fazer o **download imediato** do modelo desejado (extensão `.rtm`);
+- 📌 Modo Light e Dark;
 
 O objetivo é **agilizar o processo de impressão de etiquetas**, centralizando em um único local todos os modelos necessários para o uso diário.  
 
@@ -20,7 +21,8 @@ O objetivo é **agilizar o processo de impressão de etiquetas**, centralizando 
 ## 🎯 Funcionalidades  
 - Menu interativo para seleção de impressoras  
 - Exibição de imagens ilustrativas das etiquetas  
-- Link de download direto dos arquivos prontos  
+- Link de download direto dos arquivos prontos
+- Menu para trocar entre Light e Dark
 
 ---
 
