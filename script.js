@@ -27,7 +27,7 @@ const modelos = {
         { nome: "Argox 1 Coluna", img: "img/Argox 1 Coluna.png", arquivo: "modelos/Argox 1 Coluna.rtm" },
         { nome: "Argox 2 Coluna", img: "img/Argox 2 Colunas.png", arquivo: "modelos/Argox 2 Coluna.rtm" },
         { nome: "Argox 3 Coluna", img: "img/Argox 3 Colunas.png", arquivo: "modelos/Argox 3 Coluna.rtm" },
-        { nome: "Argox 3 Coluna Promoção", img: "img/Argox 3 Coluna_Promo.png", arquivo: "modelos/Argox 3 Coluna_Promo" }
+        { nome: "Argox 3 Coluna Promoção", img: "img/Argox 3 Coluna_Promo.png", arquivo: "modelos/Argox 3 Coluna_Promo.rtm" }
     ],
     zebra: [
         { nome: "Zebra 1 Coluna", img: "img/Zebra 1 Coluna.png", arquivo: "modelos/Zebra 1 Coluna.rtm" },
